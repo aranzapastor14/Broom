@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BROOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale 1.1">
+    <body style="background-color:burlywood"></body>
+    <!--Tipografia-->
+    <style type="text/css"> 
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @font-face{
+        font-family: 'Silence';
+                
+        src:url('fonts/Silence/Silence.ttf'),
+            url('fonts/Silence/Silence.jpg'),
+            url('fonts/Silence/Silence.svg'),
+            url('fonts/Silence/Silence.eot'),
+            url('fonts/Silence/Silence.woff'),
+            url('fonts/Silence/Silence.woff2');
+        }
+        
+        @font-face{
+        font-family: 'Afterglow';
+                
+        src:url('fonts/Afterglow/Afterglow.ttf'),
+            url('fonts/Afterglow/Afterglow.jpg'),
+            url('fonts/Afterglow/Afterglow.svg'),
+            url('fonts/Afterglow/Aftergloweot'),
+            url('fonts/Afterglow/Afterglow.woff'),
+            url('fonts/Afterglow/Afterglow.woff2');
+            }
+        
+        p[title="b"]{
+            font-family: 'Silence';
+            font-size: 15vw;
+            position: fixed;
+            top: 0px;
+            left: 10px;
+            z-index: 1;
+            color: darkred;
+        }
+        p[title="b2"]{
+            font-family: 'Silence';
+            font-size: 15vw;
+            position:fixed;
+            transform: rotate(180deg);
+            top:-10;
+            right: 0;
+            z-index: 1;
+            color: darkred;
+        }
+       p[title="r"]{
+            font-family: 'Silence';
+            font-size: 10vw;
+            position: fixed;
+            top: 80px;
+            left: 20%;
+            z-index: 0;
+            color: darkred;   
+        }
+         p[title="r2"]{
+            font-family: 'Silence';
+            font-size: 10vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top: 80px;
+            left: 75%;
+            z-index: 0;
+            color: darkred;   
+        }
+        p[title="o"]{
+            font-family: 'Silence';
+            font-size: 15vw;
+            position: fixed;
+            top: 130px;
+            left: 45%;
+            z-index: 0;
+            color: darkred;   
+        }
+        p[title="o2"]{
+            font-family: 'Silence';
+            font-size: 10vw;
+            position: fixed;
+            top: 40%;
+            left: 20%;
+            z-index: 0;
+            color: darkred;   
+        }
+        p[title="o3"]{
+            font-family: 'Silence';
+            font-size: 10vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top: 40%;
+            left: 75%;
+            z-index: 1;
+            color: darkred;   
+        }
+        p[title="m"]{
+            font-family: 'Silence';
+            font-size: 15vw;
+            position: fixed;
+            bottom: 25%;
+            left: 1%;
+            z-index: 0;
+            color: darkred;   
+        }
+        p[title="m2"]{
+            font-family: 'Silence';
+            font-size: 15vw;
+            position: fixed;
+            bottom: 20%;
+            right: 0;
+            z-index: 0;
+            color: darkred;   
+        }
+        p[title="vol"]{
+            font-family: 'Afterglow';
+            font-size:2vw;
+            position: fixed;
+            top:  2%;
+            right: 50%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="6"]{
+            font-family: 'Afterglow';
+            font-size:5vw;
+            position: fixed;
+            top: 0%;
+            left: 50%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="vol2"]{
+            font-family: 'Afterglow';
+            font-size:2vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top:  35%;
+            left: 85%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="62"]{
+            font-family: 'Afterglow';
+            font-size:5vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top:  30%;
+            left: 89%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="nº"]{
+            font-family: 'Afterglow';
+            font-size:2vw;
+            position: fixed;
+            top:  67%;
+            left: 47%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="1"]{
+            font-family: 'Afterglow';
+            font-size:5vw;
+            position: fixed;
+            top: 65%;
+            left: 50%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="nº2"]{
+            font-family: 'Afterglow';
+            font-size:2vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top: 32%;
+            right: 85%;
+            z-index: 0;
+            color: darkred;
+        }
+        p[title="12"]{
+            font-family: 'Afterglow';
+            font-size:5vw;
+            position: fixed;
+            transform: rotate(180deg);
+            top: 26%;
+            right: 88%;
+            z-index: 0;
+            color: darkred;
+        }
+        
+        @media only screen and (max-width:600px){
+            body{
+                background-color:darksalmon;
+            }
+        }*/
+    </style>
+</head> 
+
+    <p title="b">B</p>
+    <p title="b2">B</p>
+    <p title="r">R</p>
+    <p title="r2">R</p>
+    <p title="o">O</p>
+    <p title="o2">O</p>
+    <p title="o3">O</p>
+    <p title="m">M</p>
+    <p title="m2">M</p>
+    <p title="vol">VOL.</p>
+    <p title="6">6</p>
+    <p title="vol2">VOL.</p>
+    <p title="62">6</p>
+    <p title="nº">Nº</p>
+    <p title="1">1</p>
+    <p title="nº2">Nº</p>
+    <p title="12">1</p>
+
+    
+</html>
